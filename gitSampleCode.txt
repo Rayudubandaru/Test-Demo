@@ -1,0 +1,5 @@
+1. Git hub
+2. Maintain the code
+3. Allow the code modification
+4. Allow the delete the unnecessary code
+5. Allow the forward and upload the code
