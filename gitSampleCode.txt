@@ -3,3 +3,4 @@
 3. Allow the code modification
 4. Allow the delete the unnecessary code
 5. Allow the forward and upload the code
+6. Allow persons to modify the test cases
