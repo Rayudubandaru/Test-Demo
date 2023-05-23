@@ -2,7 +2,7 @@ package Demo;
 
 import java.time.Duration;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,7 +23,7 @@ public class VerifyTitle {
 		 driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
 		driver.get("https://www.makemytrip.com/");
 		String pageTitle=driver.getTitle();
 //		String actualTitle="MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday";
